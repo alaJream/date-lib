@@ -62,3 +62,11 @@ expect(d.sec).toBe(today.getSeconds())
 test('D.format', () => {
     expect(bDay.format()).toBe("20, November, 1995")
 })
+
+test('DDate.when', () => {
+    const now = new Date()
+    now.setDate(now.getDate()+2)
+    const twoDaysFromNow = new D(now)
+    expect(twoDaysFromNow.when()).toBe('This is 2 day(s) from now')
+
+})
