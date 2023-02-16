@@ -1,0 +1,26 @@
+{
+  "name": "date-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaJream/date-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alaJream/date-lib/issues"
+  },
+  "homepage": "https://github.com/alaJream/date-lib#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
